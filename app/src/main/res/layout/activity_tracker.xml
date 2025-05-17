@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/edtSleepHours"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hours of Sleep"
+        android:inputType="numberDecimal"/>
+
+    <EditText
+        android:id="@+id/edtWaterIntake"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Water Intake (liters)"
+        android:inputType="numberDecimal"/>
+
+    <CheckBox
+        android:id="@+id/chkExercise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exercised today?"/>
+
+    <Button
+        android:id="@+id/btnSubmitTracker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+</LinearLayout>
